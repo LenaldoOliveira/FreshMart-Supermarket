@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FreshMart Supermarket</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="logo">FreshMart</div>
+  <nav>
+    <ul>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#offers">Offers</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="cart">
+    🛒 <span id="cart-count">0</span>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Fresh Food, Better Prices</h1>
+  <p>Your local supermarket in London</p>
+</section>
+
+<section id="products" class="section">
+  <h2>Popular Products</h2>
+  <div class="products-grid">
+
+    <div class="product">
+      <h3>Apples</h3>
+      <p>£1.20</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <h3>Milk</h3>
+      <p>£0.99</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <h3>Bread</h3>
+      <p>£1.10</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<section id="offers" class="section dark">
+  <h2>Special Offers</h2>
+  <p>Weekly discounts on selected items.</p>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <p>Email: contact@freshmart.co.uk</p>
+</section>
+
+<footer>
+  <p>© 2026 FreshMart Supermarket | London</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
